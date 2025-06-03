@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    height: 50dvh;
+    >h2{
+    font-size: 64px;
+    color: #9F0909;
+    margin-bottom: 50px;
+    }
+}
+
+.selection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    >img{
+    width: 128px;
+    }
+    >p{
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0;
+    font-weight: bold;
+    }
+}
+
